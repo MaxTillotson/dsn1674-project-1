@@ -1,3 +1,6 @@
+span {
+  font-style: italic;
+}
 h1, h2, h3{
   font-family: 'Sigmar One', cursive;
   color: #cc3865;
@@ -43,7 +46,6 @@ nav a{
   text-decoration: none;
   color: white;
 }
-
 blockquote span{
   display: block;
   font-size: 2.5rem;
@@ -61,14 +63,13 @@ figure{
   font-size: .75em;
   line-height:1.5em;
 
+}
 dt{
   font-weight: bold;
 }
-
 a{
   color: #cc3865;
 }
-
 body, header h1, dd{
   margin: 0;
 }
@@ -76,5 +77,5 @@ body, header h1, dd{
 footer{
   background-color: #ffe524;
   text-align: center;
-  padding: 0.5em
+  padding: 0.5em;
 }
