@@ -3,7 +3,25 @@ h1, h2, h3{
   color: #cc3865;
 }
 
+h2{
+  border-top: 3px solid #ffe524;
+  line-height: 3em;
+  margin-border: 0;
+}
+
 header{
   background-color: #ffe524;
   text-align: center;
+}
+
+nav li{
+  padding: .5em;
+  border-radius: .2em;
+  background-color: #b2a215;
+  display: inline;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
 }
