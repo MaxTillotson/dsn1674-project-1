@@ -21,7 +21,26 @@ nav li{
   display: inline;
 }
 
+nav, main{
+  padding: 0.5em;
+}
+
+blockquote{
+  font-family: georgia, serif;
+  color: #b2a215;
+  font-style: italic;
+  text-align: center;
+}
+
+blockquote cite{
+  text-align: center;
+  display: block;
+}
+
 nav a{
   text-decoration: none;
   color: white;
+}
+body, header h1, dd{
+  margin: 0;
 }
