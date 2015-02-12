@@ -20,7 +20,9 @@ nav li{
   background-color: #b2a215;
   display: inline;
 }
-
+nav li:hover{
+  background-color: #cc3865;
+}
 nav, main{
   padding: 0.5em;
 }
@@ -41,6 +43,38 @@ nav a{
   text-decoration: none;
   color: white;
 }
+
+blockquote span{
+  display: block;
+  font-size: 2.5rem;
+  text-align: center;
+}
+img{
+  width: 100%;
+}
+figure{
+  background-color: #fffce0;
+  padding: .75em;
+  border-radius: .5em;
+  border: 1px solid #b2a215;
+  text-align: center;
+  font-size: .75em;
+  line-height:1.5em;
+
+dt{
+  font-weight: bold;
+}
+
+a{
+  color: #cc3865;
+}
+
 body, header h1, dd{
   margin: 0;
+}
+
+footer{
+  background-color: #ffe524;
+  text-align: center;
+  padding: 0.5em
 }
