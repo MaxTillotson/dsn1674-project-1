@@ -1,0 +1,9 @@
+h1, h2, h3{
+  font-family: 'Sigmar One', cursive;
+  color: #cc3865;
+}
+
+header{
+  background-color: #ffe524;
+  text-align: center;
+}
